@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs
+/XF.ControlesBasicos/XF.ControlesBasicos.Android/bin/Debug
+/XF.ControlesBasicos/XF.ControlesBasicos.Android/obj
+/XF.ControlesBasicos/XF.ControlesBasicos.iOS/bin
+/XF.ControlesBasicos/XF.ControlesBasicos.iOS/obj
