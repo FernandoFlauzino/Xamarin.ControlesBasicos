@@ -16,5 +16,21 @@ namespace XF.ControlesBasicos
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void SwitchCell_OnChanged(object sender, ToggledEventArgs e)
+        {
+            SwitchCell switchCell = (SwitchCell)sender;
+            bool switchCellState = switchCell.On;
+
+            if (switchCellState)
+            {
+                txtEmail.IsVisible = true;
+            }  
+            else
+            {
+                txtEmail.IsVisible = false;
+                txtEmail.Text = string.Empty;
+            }
+        }
+    }
 }

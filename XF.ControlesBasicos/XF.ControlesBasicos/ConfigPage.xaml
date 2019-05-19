@@ -8,7 +8,7 @@
             <TableView Intent="Form" x:Name="SwiCell" RowHeight="50">
                 <TableRoot>
                     <TableSection Title="Privacidade">
-                        <SwitchCell Text="Aceita receber e-mail?" On="{Binding SendEmail}"/>
+                        <SwitchCell Text="Aceita receber e-mail?" OnChanged="SwitchCell_OnChanged" On="{Binding SendEmail}"/>
                     </TableSection>
                 </TableRoot>
             </TableView>
