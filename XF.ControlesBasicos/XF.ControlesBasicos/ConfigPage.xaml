@@ -12,7 +12,7 @@
                     </TableSection>
                 </TableRoot>
             </TableView>
-            <Entry Placeholder="Informe seu e-mail" x:Name="txtEmail" Text="{Binding Email}"  />
+            <Entry Placeholder="Informe seu e-mail" x:Name="txtEmail" Text="{Binding Email}" IsVisible="False"  />
         </StackLayout>
         
     </ContentPage.Content>
